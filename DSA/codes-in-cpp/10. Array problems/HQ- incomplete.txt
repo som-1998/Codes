@@ -1,0 +1,7 @@
+description of the video
+
+q5_pairSum
+
+Ques6 - Find triplets with given sum
+
+Ques7 - Sort 0 1
