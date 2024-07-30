@@ -1,0 +1,17 @@
+django-admin
+django-admin startproject project_name
+
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate
+
+django-admin startapp app_name
+
+
+python manage.py createsuperuser
+
+ex:
+Username (leave blank to use 'somchakraborty'): somnath
+Email address: somnath@gmail.com
+Password: somnath
