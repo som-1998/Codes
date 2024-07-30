@@ -19,3 +19,6 @@ Password: somnath
 
 
 django-admin startapp app_name 
+## create a urls.py file inside the app folder. 
+## mention templates path into settings.py
+## creating templates folder in peeptalk folder.

@@ -40,6 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+
+#add
+OTHER_APPS = [
+    'tweet',
+]
+
+INSTALLED_APPS = INSTALLED_APPS + OTHER_APPS  #add
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -55,7 +64,7 @@ ROOT_URLCONF = 'PeepTalk.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  #add
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
