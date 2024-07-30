@@ -15,7 +15,10 @@ soup = BeautifulSoup(responace, 'html.parser')
 
 # print(soup.body.h1)  ## only prints the first instance
 
-print(soup.head.title.text)
+# print(soup.body.ul.text)
+print(item for item in soup.body.ul.find_all('li'))
+# for item in soup.body.ul.find_all('li'):
+#     print(item.text)
 
 # p = soup.find_all('h1')  ## p is a list
 
